@@ -63,7 +63,7 @@ Visita: [http://localhost:8000/docs](http://localhost:8000/docs)
 
 ```python
 !pip install fastapi uvicorn nest-asyncio pyngrok
-!ngrok config add-authtoken TU_AUTHTOKEN
+!ngrok config add-authtoken 
 ```
 
 ---
