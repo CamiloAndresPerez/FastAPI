@@ -110,6 +110,10 @@ curl -X POST "https://https://9270-34-75-103-151.ngrok-free.app.ngrok-free.app/p
 
 ---
 
+### Resultado Satisfactorio
+
+![image](https://github.com/user-attachments/assets/f0aac0d5-f5bb-47c3-9371-a82f4f34d61d)
+
 ## ️ Logging
 
 Se registra cada solicitud en un archivo `api.log` para monitoreo básico.
