@@ -1,5 +1,5 @@
 
-# API de Clasificación con FastAPI 
+# 🦌API de Clasificación con FastAPI 
 
 Este proyecto despliega un modelo de clasificación (Random Forest con el dataset Iris) como un servicio web usando **FastAPI**. El modelo está entrenado y expuesto a través de un endpoint REST para facilitar su integración con otras aplicaciones.
 
@@ -118,7 +118,7 @@ Se registra cada solicitud en un archivo `api.log` para monitoreo básico.
 
 ##  Créditos
 
-Proyecto desarrollado para demostrar el despliegue de modelos de Machine Learning con FastAPI como API REST, probado localmente y en Google Colab.
+Proyecto desarrollado por Camilo Andres Pérez Moreno para demostrar el despliegue de modelos de Machine Learning con FastAPI como API REST, probado localmente y en Google Colab.
 
 
 
