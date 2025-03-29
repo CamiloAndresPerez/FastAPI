@@ -1,5 +1,5 @@
 
-# API de Clasificación con FastAPI 🚀
+# API de Clasificación con FastAPI 
 
 Este proyecto despliega un modelo de clasificación (Random Forest con el dataset Iris) como un servicio web usando **FastAPI**. El modelo está entrenado y expuesto a través de un endpoint REST para facilitar su integración con otras aplicaciones.
 
@@ -11,7 +11,7 @@ Se usó un clasificador `RandomForestClassifier` de `scikit-learn` entrenado con
 
 ---
 
-## Estructura del Proyecto
+##  Estructura del Proyecto
 
 ```
 fastapi-classification-api/
@@ -45,7 +45,7 @@ Instalación de dependencias:
 pip install -r requirements.txt
 ```
 
-### Ejecución local
+### ▶️ Ejecución local
 
 ```bash
 uvicorn app.main:app --reload
@@ -55,7 +55,7 @@ Visita: [http://localhost:8000/docs](http://localhost:8000/docs)
 
 ---
 
-## Despliegue desde Google Colab
+##  Despliegue desde Google Colab
 
 1. Entrena y guarda el modelo (`modelo_entrenado.pkl`)
 2. Ejecuta la API en Colab con FastAPI + Uvicorn
@@ -68,7 +68,7 @@ Visita: [http://localhost:8000/docs](http://localhost:8000/docs)
 
 ---
 
-## Endpoint de Predicción
+##  Endpoint de Predicción
 
 ### `POST /predict`
 
@@ -93,12 +93,12 @@ Visita: [http://localhost:8000/docs](http://localhost:8000/docs)
 ### curl (Windows compatible)
 
 ```bash
-curl -X POST "https://<tu_ngrok>.ngrok-free.app/predict" -H "Content-Type: application/json" -d "{"features": [5.1, 3.5, 1.4, 0.2]}"
+curl -X POST "https://https://9270-34-75-103-151.ngrok-free.app.ngrok-free.app/predict" -H "Content-Type: application/json" -d "{"features": [5.1, 3.5, 1.4, 0.2]}"
 ```
 
 ### Postman
 
-- URL: `https://<tu_ngrok>.ngrok-free.app/predict`
+- URL: `https://https://9270-34-75-103-151.ngrok-free.app.ngrok-free.app/predict`
 - Método: `POST`
 - Body (raw/JSON):
 
@@ -110,20 +110,20 @@ curl -X POST "https://<tu_ngrok>.ngrok-free.app/predict" -H "Content-Type: appli
 
 ---
 
-## Logging
+## ️ Logging
 
 Se registra cada solicitud en un archivo `api.log` para monitoreo básico.
 
 ---
 
-## Créditos
+##  Créditos
 
 Proyecto desarrollado para demostrar el despliegue de modelos de Machine Learning con FastAPI como API REST, probado localmente y en Google Colab.
 
 
 
-## Notebook de Google Colab
+##  Notebook de Google Colab
 
 Puedes ver todo el proceso de entrenamiento, serialización del modelo y despliegue con FastAPI documentado paso a paso en el siguiente notebook:
 
-👉 [Abrir en Colab](https://colab.research.google.com/drive/1rWsUG5gi6qt2m2k52JUUqxCJhbNs4u-k?usp=sharing)
+ [Abrir en Colab](https://colab.research.google.com/drive/1rWsUG5gi6qt2m2k52JUUqxCJhbNs4u-k?usp=sharing)
