@@ -5,13 +5,13 @@ Este proyecto despliega un modelo de clasificación (Random Forest con el datase
 
 ---
 
-## 🧠 Modelo
+##  Modelo
 
 Se usó un clasificador `RandomForestClassifier` de `scikit-learn` entrenado con el dataset `Iris`. El modelo fue serializado con `joblib`.
 
 ---
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 fastapi-classification-api/
@@ -29,9 +29,9 @@ fastapi-classification-api/
 
 ---
 
-## 🚀 Cómo ejecutar la API
+##  Cómo ejecutar la API
 
-### 🔧 Requisitos
+###  Requisitos
 
 - Python 3.8+
 - FastAPI
@@ -45,7 +45,7 @@ Instalación de dependencias:
 pip install -r requirements.txt
 ```
 
-### ▶️ Ejecución local
+### Ejecución local
 
 ```bash
 uvicorn app.main:app --reload
@@ -55,7 +55,7 @@ Visita: [http://localhost:8000/docs](http://localhost:8000/docs)
 
 ---
 
-## 🌐 Despliegue desde Google Colab
+## Despliegue desde Google Colab
 
 1. Entrena y guarda el modelo (`modelo_entrenado.pkl`)
 2. Ejecuta la API en Colab con FastAPI + Uvicorn
@@ -68,7 +68,7 @@ Visita: [http://localhost:8000/docs](http://localhost:8000/docs)
 
 ---
 
-## 🔎 Endpoint de Predicción
+## Endpoint de Predicción
 
 ### `POST /predict`
 
@@ -88,7 +88,7 @@ Visita: [http://localhost:8000/docs](http://localhost:8000/docs)
 
 ---
 
-## 🧪 Pruebas
+##  Pruebas
 
 ### curl (Windows compatible)
 
@@ -110,19 +110,19 @@ curl -X POST "https://<tu_ngrok>.ngrok-free.app/predict" -H "Content-Type: appli
 
 ---
 
-## 🛠️ Logging
+## Logging
 
 Se registra cada solicitud en un archivo `api.log` para monitoreo básico.
 
 ---
 
-## 📌 Créditos
+## Créditos
 
 Proyecto desarrollado para demostrar el despliegue de modelos de Machine Learning con FastAPI como API REST, probado localmente y en Google Colab.
 
 
 
-## 📓 Notebook de Google Colab
+## Notebook de Google Colab
 
 Puedes ver todo el proceso de entrenamiento, serialización del modelo y despliegue con FastAPI documentado paso a paso en el siguiente notebook:
 
